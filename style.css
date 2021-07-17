@@ -25,7 +25,7 @@ img {
 
 
   /* colors */
-  --hue: 159;
+  --hue: 500;
   /* HSL color mode */
   --base-color: hsl(var(--hue) 36% 57%);
   --base-color-second: hsl(var(--hue) 65% 88%);
@@ -315,7 +315,7 @@ nav.show div.icon-close{
 }
 #home .image img {
   position: relative;
-  right: 2.93rem;
+  right: -5rem;
 }
 #home .image img,
 #home .image::before{
@@ -479,76 +479,24 @@ nav.show div.icon-close{
   
 }
 
-/*===== CONTACTS =====*/
+/*===== MUSIC =====*/
 
-#contact .grid{
-  gap:4rem;
+.music {
+  text-align: center;
+  padding-top: 5rem;
 
-}
-#contact .text p{
-  margin-bottom: 2rem;
 }
 
-#contact .button i,
-#contact ul li i{
-  font-size: 1.5rem;
-  margin-right: 0.625rem;
-}
-
-#contact ul.grid{
-  gap: 2rem;
-}
-#contact ul li{
-  display: flex;
-  align-items: center;
-}
-#contact ul li i{
-  color: var(--base-color);
-}
-
-/*===== FOOTER =====*/
-
-footer{
-  background: var(--base-color);
-}
-footer.section{
-  padding: 4rem 0;
-}
-
-footer .logo{
-  display: inline-block;
-  margin-bottom: 1.5rem;
-}
-
-footer .brand p{
-  color: var(--text-color-light);
-  margin-bottom: .75rem;
+strong{
+  text-decoration-color: red;
   
 }
 
-footer i{
-  font-size: 1.5rem;
-  color: var(--text-color-light);
-
-}
-
-footer .social a{
-  
-  display: inline-block;
-  transition: .3s;
-
-}
-footer .social{
-  grid-auto-flow: column;
-  width: fit-content;
-  
+#complemento {
+  background:var(--base-color);
 }
 
 
-
-footer .social a:hover{
-  transform: translateY(-8px);
-}
 
 /* back to top */
 
@@ -724,6 +672,8 @@ footer .social a:hover{
 
 }
 /* medium devices: 767> */
+
+
 
 
 
